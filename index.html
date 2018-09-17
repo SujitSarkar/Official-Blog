@@ -1,0 +1,629 @@
+<!doctype html>
+<html lang="en">
+  <head>
+   <title>SecureSoftBD</title>
+    <link rel="icon" href="logo/ssbd3.png">
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <link rel="stylesheet" href="dist/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+    <!-- Bootstrap CSS -->
+    <!--<link rel="stylesheet" href="../dist/css/bootstrap.min.css">-->
+    <link href="dist/css/bootstrap.css"  rel="stylesheet">
+    <!--index.css-->
+    <link href="index.css" rel="stylesheet" type="text/css">  
+    <!--Font Awesome Link-->  
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+  </head>
+    
+    
+    
+  <body>
+      
+      <main>
+      <div class="container">
+          <div class="row">
+
+              <div class="col-md-4 col-sm-2 col-xs-3"></div>
+              <div class="col-md-4 col-sm-8 col-xs-6" id="top"  style="padding-top:10px;">
+                  <img src="logo/ssbd2.png" class="float-left" width="100" height="80">
+                  <div style="padding-top:8px;">
+                    <h4>SecureSoftBD</h4>
+                    <p>Your thing our solution</p>
+                  </div>
+              </div>
+              <div class="col-md-4 col-sm-2 col-xs-3"></div>
+          </div><!--/row--><br>
+    
+    <!--Navigation-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      
+
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+        <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+          <li class="nav-item active">
+            <a class="nav-link underline" href="#" style="margin-right:10px;">Home <span class="sr-only"></span></a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle underline" style="margin-right:10px;" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Catagory</a>
+            <div class="dropdown-menu">
+                <a class="dropdown-item" href="technology.html"><p>Technology</p></a>
+                <a class="dropdown-item" href="programming.html"><p>programming</p></a>
+                <a class="dropdown-item" href="invantion.html"><p>New invantion</p></a>
+                <a class="dropdown-item" href="#"><p>Motivation</p></a>
+                <a class="dropdown-item" href="tips.html"><p>Tips & trics</p></a>
+                <a class="dropdown-item" href="#"><p>Database</p></a>
+            </div>
+          </li>
+         
+          <li class="nav-item">
+            <a class="nav-link underline" href="contact.html" style="margin-right:10px;">Contuct Us</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle underline" style="margin-right:10px;" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">About</a>
+            <div class="dropdown-menu">
+                <a class="dropdown-item underline" href="about-company.html"><p>Company</p></a>
+                <a class="dropdown-item underline" href="about-team.html"><p>Team</p></a>
+            </div>
+          </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit" style="margin-right:10px;"><i class="fa fa-search fa-lg"></i></button>
+        </form>
+          <ul class="navbar-nav  my-2 my-lg-0">
+            <li class="nav-item">
+                <button class="btn btn-outline-success" type="button" data-toggle="modal" data-target="#login-modal"><i class="fas fa-sign-in-alt"></i> login</button>
+            </li>
+          </ul>
+      </div>
+    </nav>
+    <!--/Navigation-->
+     <br> 
+          
+    <!--Log in modal area-->
+    <div class="modal fade" id="login-modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="login-modal">Login to our blog</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <form>
+               <div class="form-group row">
+                <div class="col-sm-10">
+                  <input type="email" class="form-control" id="inputEmail3" placeholder="Email" required>
+                </div>
+              </div>
+              <div class="form-group row">
+                <div class="col-sm-10">
+                  <input type="password" class="form-control" id="inputPassword3" placeholder="Password" required>
+                </div>
+              </div>
+            </form>
+              <div class="text-center">
+                <a href="#" style="color:#15904D;"><p>forgot password?</p></a>
+                <p>Don't have an account?<a style="color:#15904D;" href="#" data-toggle="modal" data-target="#signup-modal" data-dismiss="modal"><span> Sign up</span></a></p>
+              </div>
+              
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
+            <button type="submit" class="btn btn-outline-primary">Log in</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--/Log in modal area-->
+          
+          
+    <!--Sign up modal area-->
+    <div class="modal fade" id="signup-modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="login-modal">Sign up to our blog</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <form>
+               <div class="form-group row">
+                   
+                <div class="form-group col-sm-10">
+                    <input type="text" class="form-control" id="name" placeholder="Your Name" required>
+                </div>
+                <div class="form-group col-sm-10">
+                    <input type="text" class="form-control" id="country" placeholder="Country" required>
+                </div>
+                   
+                <div class="col-sm-10">
+                  <input type="email" class="form-control" id="inputEmail3" placeholder="Email" required>
+                </div>
+              </div>
+              <div class="form-group row">
+                <div class="col-sm-10">
+                  <input type="password" class="form-control" id="inputPassword3" placeholder="Password" required>
+                </div>
+              </div>
+                
+              <div class="form-group row">
+                <div class="col-sm-10">
+                  <input type="password" class="form-control" id="inputPassword3" placeholder="Confirm Password" required>
+                </div>
+              </div>
+            </form>
+              
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
+            <button type="submit" class="btn btn-outline-primary">Sign up</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--/Sign up modal area-->
+          
+          
+          
+     <a href="#top" class="scroll-top"><i class="fas fa-angle-up fa-3x"></i></a>
+          
+          
+          
+          
+    <!--main body-->
+     <div class="row">
+        <div class="col-md-9 text-center" style="margin-top: 20px;">
+            <button type="button" class="btn p-title card-animation"><a href="programming.html" class="ppost-color"><h4>Programming</h4></a></button>
+        </div>
+         <div class="col-md-3"></div>
+        
+        <div class="col-md-3" style="margin-top:20px;margin-bottom: 20px">
+               <div class="card shadow card-animation" style="width:16.7rem;">
+                   <a href="single-page.html">
+                     <img class="card-img-top" src="image/prg.jpg" alt="Card image cap"></a>
+                   <div class="card-body">
+                       <a href="single-page.html" class="card-a">
+                           <h5 class="card-title">This is Card title</h5>
+                       </a>
+                       <div class="text-secondary">
+                         <!--<p class="card-text">This is part of blog and this is the headline of the blog.
+                         <a href="single-page.html" class="text-secondary"><i class="far fa-arrow-alt-circle-right fa-lg"></i></a></p>-->
+                         <a href="#" style="color:dimgray;"><small><i class="fas fa-user-tie"></i> Sujit Sarkar</small></a><br>
+                         <div class="float-right cicon">
+                           <small>3 <i class="fas fa-comment"></i></small>
+                           <small>4 <i class="fas fa-share-alt"></i></small>
+                         </div>
+                         <small class="pdate">12 Feb 2018</small>
+                       </div>
+                       
+                   </div>
+               </div>
+           </div>
+         
+           <div class="col-md-3" style="margin-top:20px;margin-bottom: 20px">
+               <div class="card shadow card-animation" style="width:16.7rem;">
+                   <a href="#">
+                     <img class="card-img-top" src="image/prg2.jpg" alt="Card image cap"></a>
+                   <div class="card-body">
+                       <a href="#" class="card-a">
+                           <h5 class="card-title">This is Card title</h5>
+                       </a>
+                       <div class="text-secondary">
+                         <!--<p class="card-text">This is part of blog and this is the headline of the blog.
+                         <a href="single-page.html" class="text-secondary"><i class="far fa-arrow-alt-circle-right fa-lg"></i></a></p>-->
+                         <a href="#" style="color:dimgray;"><small><i class="fas fa-user-tie"></i> Sujit Sarkar</small></a><br>
+                         <div class="float-right cicon">
+                           <small>3 <i class="fas fa-comment"></i></small>
+                           <small>4 <i class="fas fa-share-alt"></i></small>
+                         </div>
+                         <small class="pdate">12 Feb 2018</small>
+                       </div>
+                       
+                   </div>
+               </div>
+           </div>
+         
+           <div class="col-md-3" style="margin-top:20px;margin-bottom: 20px">
+               <div class="card shadow card-animation" style="width:16.7rem;">
+                   <a href="#">
+                     <img class="card-img-top" src="image/prg3.png" alt="Card image cap"></a>
+                   <div class="card-body">
+                       <a href="#" class="card-a">
+                           <h5 class="card-title">This is Card title <br>This is Card title</h5>
+                       </a>
+                       <div class="text-secondary">
+                         <!--<p class="card-text">This is part of blog and this is the headline of the blog.
+                         <a href="single-page.html" class="text-secondary"><i class="far fa-arrow-alt-circle-right fa-lg"></i></a></p>-->
+                         <a href="#" style="color:dimgray;"><small><i class="fas fa-user-tie"></i> Sujit Sarkar</small></a><br>
+                         <div class="float-right cicon">
+                           <small>3 <i class="fas fa-comment"></i></small>
+                           <small>4 <i class="fas fa-share-alt"></i></small>
+                         </div>
+                         <small class="pdate">12 Feb 2018</small>
+                       </div>
+                       
+                   </div>
+               </div>
+           </div>
+         
+         
+         
+         
+          
+         
+         <!--sidebar-->
+         <div class="col-md-3">
+             <h5 class="text-center">Populer post</h5>
+             <div class="hline"></div>
+             
+             <a href="#" class="ppost-color">
+             <div class="ppost">
+               <img src="image/prg.jpg" alt="" class="img-thumbnail float-left" height="100" width="100" style="margin-right:5px;">
+               <h6>this is post title</h6>
+               <small class="pdate">12 Feb 2018</small>
+             </div></a><br>
+             
+             <a href="#" class="ppost-color">
+             <div class="ppost">
+               <img src="image/tech.jpg" alt="" class="img-thumbnail float-left" height="100" width="100" style="margin-right:5px;">
+               <h6>this is post title</h6>
+               <small class="pdate">14 Feb 2018</small>
+             </div></a><br>
+             
+             <a href="#" class="ppost-color">
+             <div class="ppost">
+               <img src="image/inv2.jpg" alt="" class="img-thumbnail float-left" height="100" width="100" style="margin-right:5px;">
+               <h6>this is post title</h6>
+               <small class="pdate">9 Mar 2018</small>
+             </div></a><br>
+             
+             <a href="#" class="ppost-color">
+             <div class="ppost">
+               <img src="image/tech3.jpg" alt="" class="img-thumbnail float-left" height="100" width="100" style="margin-right:5px;">
+               <h6>this is post title</h6>
+               <small class="pdate">9 Mar 2018</small>
+             </div></a><br>
+         </div><!--/sidebar-->
+         
+         
+     </div><!--/row-->
+     <br>  
+          
+          
+     
+     <div class="row">
+        <div class="col-md-9 text-center" style="margin-top: 20px;">
+            <button type="button" class="btn p-title card-animation"><a href="technology.html" class="ppost-color"><h4>Technology</h4></a></button>
+        </div>
+         <div class="col-md-3"></div>
+         
+        <div class="col-md-3" style="margin-top:20px;margin-bottom: 20px">
+               <div class="card shadow card-animation" style="width:16.7rem;">
+                   <a href="#">
+                     <img class="card-img-top" src="image/tech.jpg" alt="Card image cap"></a>
+                   <div class="card-body">
+                       <a href="#" class="card-a">
+                           <h5 class="card-title">This is Card title</h5>
+                       </a>
+                       <div class="text-secondary">
+                         <!--<p class="card-text">This is part of blog and this is the headline of the blog.
+                         <a href="single-page.html" class="text-secondary"><i class="far fa-arrow-alt-circle-right fa-lg"></i></a></p>-->
+                         <a href="#" style="color:dimgray;"><small><i class="fas fa-user-tie"></i> Sujit Sarkar</small></a><br>
+                         <div class="float-right cicon">
+                           <small>3 <i class="fas fa-comment"></i></small>
+                           <small>4 <i class="fas fa-share-alt"></i></small>
+                         </div>
+                         <small class="pdate">12 Feb 2018</small>
+                       </div>
+                       
+                   </div>
+               </div>
+           </div>
+         
+           <div class="col-md-3" style="margin-top:20px;margin-bottom: 20px">
+               <div class="card shadow card-animation" style="width:16.7rem;">
+                   <a href="#">
+                     <img class="card-img-top" src="image/tech2.jpg" alt="Card image cap"></a>
+                   <div class="card-body">
+                       <a href="#" class="card-a">
+                           <h5 class="card-title">This is Card title</h5>
+                       </a>
+                       <div class="text-secondary">
+                         <!--<p class="card-text">This is part of blog and this is the headline of the blog.
+                         <a href="single-page.html" class="text-secondary"><i class="far fa-arrow-alt-circle-right fa-lg"></i></a></p>-->
+                         <a href="#" style="color:dimgray;"><small><i class="fas fa-user-tie"></i> Sujit Sarkar</small></a><br>
+                         <div class="float-right cicon">
+                           <small>3 <i class="fas fa-comment"></i></small>
+                           <small>4 <i class="fas fa-share-alt"></i></small>
+                         </div>
+                         <small class="pdate">12 Feb 2018</small>
+                       </div>
+                       
+                   </div>
+               </div>
+           </div>
+         
+           <div class="col-md-3" style="margin-top:20px;margin-bottom: 20px">
+               <div class="card shadow card-animation" style="width:16.7rem;">
+                   <a href="#">
+                     <img class="card-img-top" src="image/tech3.jpg" alt="Card image cap"></a>
+                   <div class="card-body">
+                       <a href="#" class="card-a">
+                           <h5 class="card-title">This is Card title</h5>
+                       </a>
+                       <div class="text-secondary">
+                         <!--<p class="card-text">This is part of blog and this is the headline of the blog.
+                         <a href="single-page.html" class="text-secondary"><i class="far fa-arrow-alt-circle-right fa-lg"></i></a></p>-->
+                         <a href="#" style="color:dimgray;"><small><i class="fas fa-user-tie"></i> Sujit Sarkar</small></a><br>
+                         <div class="float-right cicon">
+                           <small>3 <i class="fas fa-comment"></i></small>
+                           <small>4 <i class="fas fa-share-alt"></i></small>
+                         </div>
+                         <small class="pdate">12 Feb 2018</small>
+                       </div>
+                       
+                   </div>
+               </div>
+           </div>
+         
+         
+         
+          
+         
+         <!--sidebar-->
+         <div class="col-md-3">
+             <h5 class="text-center">Archive</h5>
+             <div class="hline"></div>
+             <div class="archive">
+                 <a href="#"><h6 class="text-center card-animation">January(8)</h6></a>
+                 <a href="#"><h6 class="text-center card-animation">February(8)</h6></a>
+                 <a href="#"><h6 class="text-center card-animation">March(8)</h6></a>
+                 <a href="#"><h6 class="text-center card-animation">April(8)</h6></a>
+                 <a href="#"><h6 class="text-center card-animation">May(8)</h6></a>
+                 <a href="#"><h6 class="text-center card-animation">June(8)</h6></a>
+                 <a href="#"><h6 class="text-center card-animation">July(8)</h6></a>
+             </div>
+         </div><!--/sidebar-->
+     </div><!--/row--><br>
+          
+          
+          
+     <div class="row">
+        <div class="col-md-9 text-center" style="margin-top: 20px;">
+            <button type="button" class="btn p-title card-animation"><a href="tips.html" class="ppost-color"><h4>Tips and Tricks</h4></a></button>
+        </div>
+         <div class="col-md-3"></div>
+         
+        <div class="col-md-3" style="margin-top:20px;margin-bottom: 20px">
+               <div class="card shadow card-animation" style="width:16.7rem;">
+                   <a href="#">
+                     <img class="card-img-top" src="image/tt.jpg" alt="Card image cap"></a>
+                   <div class="card-body">
+                       <a href="#" class="card-a">
+                           <h5 class="card-title">This is Card title</h5>
+                       </a>
+                       <div class="text-secondary">
+                         <!--<p class="card-text">This is part of blog and this is the headline of the blog.
+                         <a href="single-page.html" class="text-secondary"><i class="far fa-arrow-alt-circle-right fa-lg"></i></a></p>-->
+                         <a href="#" style="color:dimgray;"><small><i class="fas fa-user-tie"></i> Sujit Sarkar</small></a><br>
+                         <div class="float-right cicon">
+                           <small>3 <i class="fas fa-comment"></i></small>
+                           <small>4 <i class="fas fa-share-alt"></i></small>
+                         </div>
+                         <small class="pdate">12 Feb 2018</small>
+                       </div>
+                       
+                   </div>
+               </div>
+           </div>
+         
+           <div class="col-md-3" style="margin-top:20px;margin-bottom: 20px">
+               <div class="card shadow card-animation" style="width:16.7rem;">
+                   <a href="#">
+                     <img class="card-img-top" src="image/tt2.jpg" alt="Card image cap"></a>
+                   <div class="card-body">
+                       <a href="#" class="card-a">
+                           <h5 class="card-title">This is Card title</h5>
+                       </a>
+                       <div class="text-secondary">
+                         <!--<p class="card-text">This is part of blog and this is the headline of the blog.
+                         <a href="single-page.html" class="text-secondary"><i class="far fa-arrow-alt-circle-right fa-lg"></i></a></p>-->
+                         <a href="#" style="color:dimgray;"><small><i class="fas fa-user-tie"></i> Sujit Sarkar</small></a><br>
+                         <div class="float-right cicon">
+                           <small>3 <i class="fas fa-comment"></i></small>
+                           <small>4 <i class="fas fa-share-alt"></i></small>
+                         </div>
+                         <small class="pdate">12 Feb 2018</small>
+                       </div>
+                       
+                   </div>
+               </div>
+           </div>
+         
+           <div class="col-md-3" style="margin-top:20px;margin-bottom: 20px">
+               <div class="card shadow card-animation" style="width:16.7rem;">
+                   <a href="#">
+                     <img class="card-img-top" src="image/tt3.jpg" alt="Card image cap"></a>
+                   <div class="card-body">
+                       <a href="#" class="card-a">
+                           <h5 class="card-title">This is Card title</h5>
+                       </a>
+                       <div class="text-secondary">
+                         <!--<p class="card-text">This is part of blog and this is the headline of the blog.
+                         <a href="single-page.html" class="text-secondary"><i class="far fa-arrow-alt-circle-right fa-lg"></i></a></p>-->
+                         <a href="#" style="color:dimgray;"><small><i class="fas fa-user-tie"></i> Sujit Sarkar</small></a><br>
+                         <div class="float-right cicon">
+                           <small>3 <i class="fas fa-comment"></i></small>
+                           <small>4 <i class="fas fa-share-alt"></i></small>
+                         </div>
+                         <small class="pdate">12 Feb 2018</small>
+                       </div>
+                       
+                   </div>
+               </div>
+           </div>
+         
+         <!--sidebar-->
+         <div class="col-md-3">
+             
+         </div><!--/sidebar-->
+     </div><!--/row--><br>
+          
+          
+     <div class="row">
+        <div class="col-md-9 text-center" style="margin-top: 20px;">
+            <button type="button" class="btn p-title card-animation"><a href="invantion.html" class="ppost-color"><h4>New invantion</h4></a></button>
+        </div>
+         <div class="col-md-3"></div>
+         
+        <div class="col-md-3" style="margin-top:20px;margin-bottom: 20px">
+               <div class="card shadow card-animation" style="width:16.7rem;">
+                   <a href="#">
+                     <img class="card-img-top" src="image/inv3.jpg" alt="Card image cap"></a>
+                   <div class="card-body">
+                       <a href="#" class="card-a">
+                           <h5 class="card-title">This is Card title</h5>
+                       </a>
+                       <div class="text-secondary">
+                         <!--<p class="card-text">This is part of blog and this is the headline of the blog.
+                         <a href="single-page.html" class="text-secondary"><i class="far fa-arrow-alt-circle-right fa-lg"></i></a></p>-->
+                         <a href="#" style="color:dimgray;"><small><i class="fas fa-user-tie"></i> Sujit Sarkar</small></a><br>
+                         <div class="float-right cicon">
+                           <small>3 <i class="fas fa-comment"></i></small>
+                           <small>4 <i class="fas fa-share-alt"></i></small>
+                         </div>
+                         <small class="pdate">12 Feb 2018</small>
+                       </div>
+                       
+                   </div>
+               </div>
+           </div>
+         
+           <div class="col-md-3" style="margin-top:20px;margin-bottom: 20px">
+               <div class="card shadow card-animation" style="width:16.7rem;">
+                   <a href="#">
+                     <img class="card-img-top" src="image/inv2.jpg" alt="Card image cap"></a>
+                   <div class="card-body">
+                       <a href="#" class="card-a">
+                           <h5 class="card-title">This is Card title</h5>
+                       </a>
+                       <div class="text-secondary">
+                         <!--<p class="card-text">This is part of blog and this is the headline of the blog.
+                         <a href="single-page.html" class="text-secondary"><i class="far fa-arrow-alt-circle-right fa-lg"></i></a></p>-->
+                         <a href="#" style="color:dimgray;"><small><i class="fas fa-user-tie"></i> Sujit Sarkar</small></a><br>
+                         <div class="float-right cicon">
+                           <small>3 <i class="fas fa-comment"></i></small>
+                           <small>4 <i class="fas fa-share-alt"></i></small>
+                         </div>
+                         <small class="pdate">12 Feb 2018</small>
+                       </div>
+                       
+                   </div>
+               </div>
+           </div>
+         
+           <div class="col-md-3" style="margin-top:20px;margin-bottom: 20px">
+               <div class="card shadow card-animation" style="width:16.7rem;">
+                   <a href="#">
+                     <img class="card-img-top" src="image/inv.jpg" alt="Card image cap"></a>
+                   <div class="card-body">
+                       <a href="#" class="card-a">
+                           <h5 class="card-title">This is Card title</h5>
+                       </a>
+                       <div class="text-secondary">
+                         <!--<p class="card-text">This is part of blog and this is the headline of the blog.
+                         <a href="single-page.html" class="text-secondary"><i class="far fa-arrow-alt-circle-right fa-lg"></i></a></p>-->
+                         <a href="#" style="color:dimgray;"><small><i class="fas fa-user-tie"></i> Sujit Sarkar</small></a><br>
+                         <div class="float-right cicon">
+                           <small>3 <i class="fas fa-comment"></i></small>
+                           <small>4 <i class="fas fa-share-alt"></i></small>
+                         </div>
+                         <small class="pdate">12 Feb 2018</small>
+                       </div>
+                       
+                   </div>
+               </div>
+           </div>
+         
+         <!--sidebar-->
+         <div class="col-md-3">
+             
+         </div><!--/sidebar-->
+     </div><!--/row--><br>
+          
+        
+          
+          
+    <footer>
+        <div class="row footer">
+            <div class="col-md-4"><br>
+                <h4><b>About Us</b></h4><br>
+                <div>
+                   <i class="fa fa-map-marker fa-lg float-left" style="margin-right:10px;"></i>
+                </div>
+                <div>
+                    <p style="font-size:13px;"> Ashulia, Savar, Dhaka Bangladesh</p>
+                </div>
+                <div class="float-left">
+                   <i class="fa fa-phone fa-lg" style="margin-right:10px;"></i>
+                </div>
+                <div>
+                    <p style="font-size:13px;"> +8801929444532<br> +8801855887689</p>
+                </div>
+                <div>
+                   <i class="fa fa-envelope fa-lg float-left" style="margin-right:10px;"></i>
+                </div>
+                <div>
+                    <p style="font-size:13px;"> securesoftinbd@gmail.com</p>
+                </div>
+            </div>
+            <div class="col-md-4 footer-content"><br>
+                <h4><b>Get Started</b></h4><br>
+                <a href="#"><li>Home</li></a><br>
+                <a href="#"><li>Privacy Policy</li></a><br>
+                <a href="#"><li>Terms of use</li></a>
+            </div>
+            <div class="col-md-4 footer-content"><br>
+                <h4><b>Support</b></h4><br>
+                <a href="#"><li>FAQ</li></a><br>
+                <a href="#"><li>Blog</li></a><br>
+                <a href="#"><li>Contact us</li></a>
+            </div>
+        </div>
+        <div class="row footer-bottom">
+            <div class="col-md-12">
+                <p class="float-left" style="padding-top:10px;margin-bottom:30px;">Copyright <i class="far fa-copyright"></i> 2018 securesoftbd all right reserved.</p>
+                <div class="float-right">
+                    <button class="btn social card-animation"><a href="#"><i class="fab fa-facebook-f fa-lg"></i></a></button>
+                    <button class="btn social card-animation"><a href="#"><i class="fab fa-twitter fa-lg"></i></a></button>
+                    <button class="btn social card-animation"><a href="#"><i class="fab fa-linkedin-in fa-lg"></i></a></button>
+                </div>
+            </div>
+        </div>
+    </footer>      
+          
+    </div><!--/container-->
+    </main>
+
+     <script>
+       
+            $('.scroll_top').click(function(){
+                $('body').animate({scrollTop: 0}, duration);
+            });
+        
+     </script> 
+      
+    <script src="dist/js/jquery-3.3.1.slim.min.js"></script>
+    <script src="dist/js/bootstrap.min.js"></script>
+  </body>
+    
+</html>

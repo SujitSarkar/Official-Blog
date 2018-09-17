@@ -1,0 +1,179 @@
+body{
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    background-color: #f2f5f9;
+}
+.box{
+    border: 1px solid silver;
+}
+.row{
+    background-color: white;
+}
+.cicon small{
+    padding-left: 8px;
+}
+.pdate{
+    font-size:11px;
+}
+.hline{
+    border-bottom: 2px solid silver;
+    margin-top:5px;
+    margin-bottom:5px;
+}
+.ppost{
+    margin-top:10px;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: none;
+}
+.ppost-color{
+    color:#4e5156;
+}
+.ppost-color:hover{
+    color: #2c2d30;
+}
+.shadow{
+    -webkit-box-shadow: 0px 3px 5px 1px rgba(0,0,0,0.35);
+    -moz-box-shadow: 0px 3px 5px 1px rgba(0,0,0,0.35);
+    box-shadow: 0px 3px 5px 1px rgba(0,0,0,0.35);
+}
+.card-a{
+    color:#2c2c2d;
+}
+
+.archive a{
+    color:#4e5156;
+}
+.archive a:hover{
+    color:#2c2d30;
+}
+
+.cname{
+    color:#4e5156;
+}
+.p-title{
+    background: #fff;
+    border-bottom:3px solid #4e5156;
+    color:black;
+    padding-bottom: 0px;
+}
+.footer{
+    background-image: linear-gradient(to right, #051937, #003357, #004d5f, #006546, #15780c);
+    color: #e3e5e8;
+    padding:30px 40px 0px 40px;
+}
+.footer-content a{
+    color:white;
+    margin-top: 20px;
+}
+.footer-content a:hover{
+    color:#E95420;
+}
+/*social icon*/
+.social{
+    border: 2px solid white;
+    border-radius:50px;
+    background-color:#15780C;
+}
+.social a{
+    color:white;
+}
+.social:hover{
+    background: #15780C;
+}
+/*/social icon*/
+.footer-bottom{
+    background-image: linear-gradient(to right, #051937, #003357, #004d5f, #006546, #15780c);
+    color: #e3e5e8;
+    padding:10px 40px 0px 40px;
+}
+
+/*card animation*/
+.card-animation{
+    transition: transform .2s
+}
+.card-animation:hover{
+    transform: scale(1.1);
+}
+/*card animation*/
+
+
+/*image hover effect*/
+.ctr{
+    position: relative;
+    width: 100%;
+}
+.ctr:hover .middle {
+  opacity: 1;
+}
+.ctr:hover .image {
+  opacity: 0.3;
+}
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+.image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+  border: 3px solid black;
+  border-radius:300px;
+}
+/*/image hover effect*/
+
+
+
+/*underline*/
+.underline{
+  background-image: linear-gradient(dodgerblue, dodgerblue);
+  background-size: 0 5px, auto;
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  transition: all .2s ease-out;
+}
+.underline:hover{
+  /* The following line makes the underline only as wide as the text */
+  background-size: 100% 3px, auto;
+}
+/*/underline*/
+
+/*social share button*/
+.post-share{
+    min-height: 45px;
+    min-width: 45px;
+    color:white;
+    background-color: #4267B2;
+    padding:5px;
+    border: 1px solid white;
+    border-radius: 50px;
+    text-align: center;
+}
+.post-share:hover{
+    background-color: #2f497f;
+}
+/*/social share button*/
+
+/*Fixed button*/
+.scroll-top{
+    
+    position:fixed;
+    bottom: 10%;
+    right:3%;
+    transition: all 0.5s ease;
+    color:black;
+    font-size: 1em;
+    
+}
+
